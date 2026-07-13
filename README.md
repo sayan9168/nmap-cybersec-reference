@@ -93,6 +93,7 @@ Empowering the next generation of cybersecurity professionals.
 
 ## 📬 Contact
 
-- **Website:** [sayanox.com](https://sayanox.com)
+- **Website:** [sayanox private limited .com](https://sayanox-enterprises-private-limited.vercel.app/)
 - **Email:** sm6881164@gmail.com **
-- **Twitter:** [@sayanox](https://twitter.com/sayanox)
+- **Twitter:** [@notfound_sayan](https://x.com/notfound_sayan)
+- **Instagram:** [@_sayyyyan](https://instagram.com/_sayyyyan)
