@@ -1,7 +1,7 @@
 # 🌐 Nmap Master 3D | Ultimate Nmap Command Reference
 
 ![SayanoX Pvt Ltd](https://img.shields.io/badge/By-SayanoX%20Pvt%20Ltd-00f5ff?style=for-the-badge&logo=github)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![License](https://img.shields.io/badge/License-SAYANOXV1.1-green?style=for-the-badge)
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)
 
 **Nmap Master 3D** is the ultimate, interactive, and visually stunning 3D reference guide for Nmap (Network Mapper). Designed for cybersecurity professionals, penetration testers, and students, it provides over 80+ essential Nmap commands with realistic outputs, detailed explanations, and an immersive cyberpunk UI.
