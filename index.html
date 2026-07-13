@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Nmap Master 3D | Ultimate Nmap Command Reference | SayanoX Pvt Ltd</title>
+    <meta name="description" content="Master Nmap with the ultimate 3D interactive command reference. Explore 80+ Nmap commands, realistic outputs, and expert explanations. Built by SayanoX Pvt Ltd.">
+    <meta name="keywords" content="Nmap commands, Nmap cheat sheet, network scanning, cybersecurity, Kali Linux, SayanoX Pvt Ltd, ethical hacking">
+    <meta name="author" content="SayanoX Pvt Ltd">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Nmap Master 3D | Ultimate Command Reference">
+    <meta property="og:description" content="The most comprehensive 3D interactive Nmap guide. By SayanoX Pvt Ltd.">
+
+    <!-- JSON-LD Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "SayanoX Pvt Ltd",
+      "url": "https://sayanox.com",
+      "description": "Leading cybersecurity education and tooling platform."
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cyber-grid"></div>
+    <div class="particles" id="particles"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">SAYANOX <span style="color:var(--neon-green)">PVT LTD</span></div>
+        <div class="nav-links">
+            <a href="#commands">Commands</a>
+            <a href="#faq">FAQ</a>
+            <a href="#about">About</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>NMAP MASTER 3D</h1>
+        <div class="subtitle">The Ultimate Interactive Nmap Command Reference for Cybersecurity Professionals</div>
+        
+        <!-- Fake Interactive Terminal -->
+        <div class="fake-terminal">
+            <div class="fake-terminal-header">
+                <span></span><span></span><span></span>
+            </div>
+            <div class="terminal-input-line">
+                <span class="prompt">root@sayanox:~#</span>
+                <input type="text" id="fakeTerminalInput" placeholder="Type 'nmap -sS 192.168.1.1' and press Enter..." autocomplete="off">
+            </div>
+        </div>
+    </header>
+
+    <div class="controls" id="commands">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="🔍 Search commands, flags, or keywords (e.g., -sS, stealth, OS)...">
+        </div>
+        <div class="filter-buttons" id="filterButtons">
+            <button class="filter-btn active" data-category="all">All Commands</button>
+            <button class="filter-btn" data-category="target">Target</button>
+            <button class="filter-btn" data-category="discovery">Discovery</button>
+            <button class="filter-btn" data-category="port">Port Scan</button>
+            <button class="filter-btn" data-category="service">Service/OS</button>
+            <button class="filter-btn" data-category="timing">Timing</button>
+            <button class="filter-btn" data-category="scripts">NSE Scripts</button>
+            <button class="filter-btn" data-category="output">Output</button>
+            <button class="filter-btn" data-category="evasion">Evasion</button>
+        </div>
+    </div>
+
+    <div class="stats-bar">
+        <div class="stat-item">
+            <div class="stat-number" id="totalCommands">0</div>
+            <div class="stat-label">Total Commands</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number" id="totalCategories">0</div>
+            <div class="stat-label">Categories</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Coverage</div>
+        </div>
+    </div>
+
+    <div class="container" id="commandsContainer">
+        <!-- Commands will be injected here by JavaScript -->
+    </div>
+
+    <!-- FAQ Section for SEO -->
+    <section class="faq-section" id="faq">
+        <h2 class="faq-title">Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <div class="faq-question">What is Nmap and why is it used?</div>
+            <div class="faq-answer">Nmap (Network Mapper) is a free, open-source utility used for network discovery and security auditing by cybersecurity professionals.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Is it legal to use Nmap to scan networks?</div>
+            <div class="faq-answer">Yes, but only on networks you own or have explicit written permission to scan. Unauthorized scanning is illegal.</div>
+        </div>
+    </section>
+
+    <footer id="about">
+        <div class="footer-logo">SAYANOX PVT LTD</div>
+        <div class="footer-text">Empowering the next generation of cybersecurity professionals.</div>
+        <div class="footer-text" style="font-size: 0.8rem; color: #555; margin-top: 10px;">&copy; 2026 SayanoX Pvt Ltd. All Rights Reserved. For Educational Purposes Only.</div>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </footer>
+
+    <!-- Link to External JavaScript -->
+    <script src="script.js"></script>
+</body>
+  </html>
